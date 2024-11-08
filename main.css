@@ -2,7 +2,7 @@
 body {
     background-color: #212529;
     color: #a66bd7;
-    padding-top: 56px;
+    /*padding-top: 56px;*/
     scroll-behavior: smooth;
 }
 
@@ -30,11 +30,11 @@ body {
     color: #4e027a !important;
 }
 
-.tm-logo {
+.jhc-logo {
     width: 8rem;
 }
 
-.tm-container {
+.jhc-container {
     background-color: #17191c;
     border-style: solid;
     border-radius: .5rem;
@@ -44,50 +44,57 @@ body {
     opacity: 98%;
 }
 
-.tm-divider-short {
+.jhc-divider-short {
     height: 0.5rem;
     background-color: #735881;
     margin-bottom: 1rem;
 }
 
-.tm-icon {
+.jhc-icon {
     font-size: 2em;
 }
 
-.tm-link {
+.jhc-link {
     color: #a66bd7;
     text-decoration: none;
     font-style: italic;
 }
 
-.tm-link:hover {
+.jhc-link:hover {
     color: #e53d3d;
 }
 
-.tm-reel-embed {
+.jhc-reel-embed {
     width: 100%;
     height: 500px;
 }
 
-.tm-reel-title {
+.jhc-reel-title {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.tm-testimonial-title {
+.jhc-testimonial-title {
     font-size: 1.5em;
 }
 
-.tm-testimonial-button {
+.jhc-testimonial-button {
     font-size: 0.8em;
 }
 
-.tm-testimonial-button[aria-expanded="false"]:before {
+.jhc-testimonial-button[aria-expanded="false"]:before {
     content:"[Show More]";
 }
 
-.tm-testimonial-button[aria-expanded="true"]:before {
+.jhc-testimonial-button[aria-expanded="true"]:before {
     content:"[Show Less]";
+}
+
+/* Fonts */
+.baumans-regular {
+  font-family: "Baumans", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media (min-width: 992px) {
@@ -97,18 +104,18 @@ body {
 }
 
 /* Ids */
-#tm_background_image {
-    background-image: url("images/piano-bg-mono.jpg");
+#jhc_background_image {
+    background-image: url("images/John_Hicks-00921-2-small.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-#tm_footer {
+#jhc_footer {
     border-radius: .5rem;
     background-color: #212529;
     font-size: 0.8em;
 }
 
-#tm_footer a {
+#jhc_footer a {
     color: #939191;
 }

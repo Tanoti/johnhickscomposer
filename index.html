@@ -28,6 +28,11 @@
     <!--suppress JSUnresolvedLibraryURL -->
     <script src="https://kit.fontawesome.com/75d3d70df0.js" crossorigin="anonymous"></script>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-330W501LCY"></script>
     <script>
@@ -46,27 +51,27 @@
         This uses the Bootstrap Scrollspy functionality to update the navbar active state depending on
         which part of the main content is currently scrolled into view
       -->
-      <nav id="tm_navbar" class="navbar navbar-expand-sm navbar-default fixed-top">
-        <div class="container-fluid">
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" href="#tm_home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tm_bio">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tm_reels">Music</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tm_projects">Projects</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<!--      <nav id="jhc_navbar" class="navbar navbar-expand-sm navbar-default fixed-top">-->
+<!--        <div class="container-fluid">-->
+<!--          <ul class="nav nav-pills">-->
+<!--            <li class="nav-item">-->
+<!--              <a class="nav-link" href="#jhc_home">Home</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--              <a class="nav-link" href="#jhc_bio">About</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--              <a class="nav-link" href="#jhc_reels">Music</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--              <a class="nav-link" href="#jhc_projects">Projects</a>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--      </nav>-->
 
       <div
-              id="tm_background_image"
+              id="jhc_background_image"
               class="px-4 py-4"
               data-bs-spy="scroll"
               data-bs-target="#ubmh-navbar"
@@ -78,21 +83,21 @@
 
         <!-- Logo and header -->
         <div
-                id="tm_home"
-                class="tm-container container px-3 py-3 col-lg-8 text-center"
+                id="jhc_home"
+                class="jhc-container container px-3 py-3 col-lg-9 text-center"
         >
 
-          <h1 class="display-3 fw-bold">John Hicks Composer</h1>
+          <h1 class="display-3 fw-bold baumans-regular">John Hicks Composer</h1>
 
           <div class="mx-auto">
-            <h2>Media Composition | Sound Design | Audio Production</h2>
+            <h2 class="baumans-regular">Media Composition | Sound Design | Audio Production</h2>
           </div>
           <br>
 
           <!-- Contact icons -->
-          <div class="mx-auto col-lg-6 tm-icon">
+          <div class="mx-auto col-lg-6 jhc-icon">
               <a
-                      class="tm-link"
+                      class="jhc-link"
                       href="mailto:info@tanotimusic.com"
                       title="Email info@tanotimusic.com"
               >
@@ -100,7 +105,7 @@
               </a>
 
               <a
-                      class="tm-link"
+                      class="jhc-link"
                       href="https://www.facebook.com/tanotimusic"
                       title="Facebook (tanotimusic)"
                       target="_blank"
@@ -109,16 +114,16 @@
               </a>
 
               <a
-                      class="tm-link"
+                      class="jhc-link"
                       href="https://twitter.com/tanotimusic"
                       title="Twitter @tanotimusic"
                       target="_blank"
               >
-                <i class="fab fa-twitter-square"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
               </a>
 
               <a
-                      class="tm-link"
+                      class="jhc-link"
                       href="https://instagram.com/tanotimusic/"
                       title="Instagram @tanotimusic"
                       target="_blank"
@@ -129,7 +134,7 @@
 
           <div class="mx-auto mt-4">
             <span
-              class="tm-testimonial-title"
+              class="jhc-testimonial-title"
             >
               "Professional throughout"
             </span>
@@ -140,26 +145,8 @@
         </div>
 
         <!-- Bio and photo -->
-        <div id="tm_bio" class="tm-container container px-3 py-2 col-lg-8 text-center">
-          <div class="mx-auto row flex-lg-row-reverse align-items-center g-5">
-            <div class="col-lg-4">
-              <img
-                      class="rounded-lg-3 img-fluid"
-                      src="images/tanoti_music_studio_v3.jpg"
-                      alt="Tanoti Music studio"
-                      title="Tanoti Music studio"
-              >
-            </div>
-
-            <div class="col-lg-5">
-              <p class="lead mb-4">
-                John is a freelance media composer based in the beautiful countryside of West Berkshire in England.
-                He has experience working in audio branding, video games, theatre, writing to picture and audio drama.
-                John also holds a Master's Degree in Professional Media Composition from the University of Chichester
-                in the UK.
-              </p>
-            </div>
-
+        <div id="jhc_bio" class="jhc-container container px-3 py-2 col-lg-9 text-center">
+          <div class="mx-auto row align-items-center">
             <div class="col-lg-3">
               <img
                       class="rounded-lg-3 img-fluid"
@@ -169,24 +156,42 @@
               >
             </div>
 
+            <div class="col-lg-6">
+              <p class="lead mb-4 baumans-regular">
+                John is a freelance media composer based in the beautiful countryside of West Berkshire in England.
+                He has experience working in audio branding, video games, theatre, writing to picture and audio drama.
+                John also holds a Master's Degree in Professional Media Composition from the University of Chichester
+                in the UK. He has two dogs.
+              </p>
+            </div>
+
+            <div class="col-lg-3 mt-4 mb-4">
+              <img
+                      class="rounded-lg-3 img-fluid"
+                      src="images/John_Hicks-01089-2-small.jpg"
+                      alt="John Hicks and dog"
+                      title="John Hicks and dog"
+              >
+            </div>
+
           </div>
           <div class="mx-auto row">
-            <div class="display-7 fw-bold">
-               When you need dramatic audio that tells a story, then you need a dramatic composer!
-            </div>
+            <h2 class="baumans-regular">
+               When you need dramatic audio that tells a story,<br>then you need a dramatic composer!
+            </h2>
           </div>
         </div>
 
         <!-- Reelcrafter -->
-        <div id="tm_reels" class="tm-container container px-4 py-3 pb-3 col-lg-8 text-center">
-          <h2 class="display-4 fw-bold">Music</h2>
+        <div id="jhc_reels" class="jhc-container container px-4 py-3 pb-3 col-lg-9 text-center">
+          <h2 class="display-4 fw-bold baumans-regular">Music</h2>
 
           <!-- ReelCrafter reel: Video Game Music -->
           <div class="row">
             <div class="col-md-6 mb-4 mx-auto">
-                <span class="tm-reel-title">Video Game Music</span>
+                <span class="jhc-reel-title baumans-regular">Video Game Music</span>
                 <iframe
-                        class="tm-reel-embed"
+                        class="jhc-reel-embed"
                         src="https://play.reelcrafter.com/embed/e418317e-779b-43c9-a7ea-35633c317832"
                 >
                 </iframe>
@@ -194,9 +199,9 @@
 
             <!-- ReelCrafter reel: Magic and Fantasy -->
             <div class="col-md-6 mb-4 mx-auto">
-                <span class="tm-reel-title">Magic and Fantasy</span>
+                <span class="jhc-reel-title baumans-regular">Magic and Fantasy</span>
                 <iframe
-                        class="tm-reel-embed"
+                        class="jhc-reel-embed"
                         src="https://play.reelcrafter.com/embed/24189f8d-d130-4a2f-8e99-a7e7f88c84ad"
                 >
                 </iframe>
@@ -205,8 +210,8 @@
         </div>
 
         <!-- Short Films and Projects -->
-        <div id="tm_projects" class="tm-container container px-4 py-3 pb-3 col-lg-8 text-center">
-          <h2 class="display-4 fw-bold">Short Films and Projects</h2>
+        <div id="jhc_projects" class="jhc-container container px-4 py-3 pb-3 col-lg-9 text-center">
+          <h2 class="display-4 fw-bold baumans-regular">Short Films and Projects</h2>
 
           <div class="row">
             <div class="col-md-6 mb-4 mx-auto">
@@ -221,7 +226,7 @@
                 GopherChat is a comedy short by Oli Seaman of
                 <!--suppress HttpUrlsUsage -->
                 <a
-                        class="tm-link"
+                        class="jhc-link"
                         href="http://andelainfilms.com/index.php/Main_Page"
                         target="_blank"
                 >
@@ -248,8 +253,8 @@
         </div>
 
         <!-- Footer -->
-        <div id="tm_footer" class="text-secondary mt-4 px-2 pt-3 pb-1 col-lg-8 text-center mx-auto">
-          <div class="col-lg-8 mx-auto">
+        <div id="jhc_footer" class="text-secondary mt-4 px-2 pt-3 pb-1 col-lg-9 text-center mx-auto">
+          <div class="col-lg-9 mx-auto">
             <p>
               John Hicks Composer and Tanoti Music are trading names for Tanoti Services Ltd.
             </p>
