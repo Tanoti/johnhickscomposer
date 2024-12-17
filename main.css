@@ -34,6 +34,11 @@ body {
     width: 8rem;
 }
 
+.jhc-main-title {
+    font-size: 7em;
+    font-weight: bold;
+}
+
 .jhc-container {
     background-color: #17191c;
     border-style: solid;
