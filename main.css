@@ -32,10 +32,11 @@ body {
 
 .jhc-logo {
     width: 8rem;
+    padding: 5px;
 }
 
 .jhc-main-title {
-    font-size: 7em;
+    font-size: 8em;
     font-weight: bold;
 }
 
